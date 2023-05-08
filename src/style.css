@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+.design{
+  color: #000;
+}
+
+.home,
+.consulting,
+.contactus,
+.design,
+.development,
+.marketing,
+.products,
+.services,
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 4rem;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
+}
+
+.home {
+  /* background-image: url(./images/home.jpg); */
+  background-image: url("https://images.pexels.com/photos/6991567/pexels-photo-6991567.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+}
+
+.consulting {
+  background-image: url("https://images.pexels.com/photos/11208408/pexels-photo-11208408.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  /* background-image: url(./images/consulting.jpg); */
+}
+
+.design {
+  /* background-image: url(./images/design.jpg); */
+  background-image: url("https://images.pexels.com/photos/15729738/pexels-photo-15729738.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+
+}
+
+.development {
+  /* background-image: url(./images/development.jpg); */
+  background-image: url("https://images.pexels.com/photos/11208339/pexels-photo-11208339.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+
+}
+
+.marketing {
+  /* background-image: url(./images/marketing.jpg); */
+  background-image: url("https://images.pexels.com/photos/3307862/pexels-photo-3307862.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.products {
+  /* background-image: url(./images/products.jpg); */
+  background-image: url("https://images.pexels.com/photos/605208/pexels-photo-605208.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.contactus {
+  background-image: url("https://images.pexels.com/photos/4560134/pexels-photo-4560134.jpeg?auto=compress&cs=tinysrgb&w=600");
+  /* background-image: url(./images/contactus.jpg); */
+}
+
+.services {
+  /* background-image: url(./images/services.jpg); */
+  background-image: url("https://images.pexels.com/photos/2216607/pexels-photo-2216607.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.signup {
+  background-image: url("https://images.pexels.com/photos/936043/pexels-photo-936043.jpeg?auto=compress&cs=tinysrgb&w=600");
+  /* background-image: url(./images/signup.jpg); */
+}
